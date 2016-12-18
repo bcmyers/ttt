@@ -1,6 +1,7 @@
 [package]
-name = "tictactoe"
+name = "ttt"
 version = "0.1.0"
-authors = ["Brian Myers <brian.myers@post.harvard.edu>"]
+authors = ["Brian Myers <brian.carl.myers@gmail.com>"]
+license = "MIT"
 
 [dependencies]
