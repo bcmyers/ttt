@@ -154,9 +154,9 @@ impl Display for Cell {
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
         match self {
             &Cell::Marked(Player::O) => write!(f, " O "),
-            &Cell::Marked(Player::Cats) => write!(f, "[ ]"),
             &Cell::Marked(Player::X) => write!(f, " X "),
             &Cell::Empty(n) => write!(f, "[{}]", n),
+            &Cell::Marked(Player::Cats) => write!(f, "[ ]"),
         }
     }
 }
